@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewBuzzTheme" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/buzztheme_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/buzztheme_edit_text_holo_light</item>
+  </style>
+
+  <style name="ButtonBuzzTheme" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/buzztheme_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonBuzzTheme" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/buzztheme_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerBuzzTheme" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/buzztheme_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/buzztheme_list_selector_holo_light</item>
+  </style>
+
+  <style name="ProgressBarBuzzTheme" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/buzztheme_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/buzztheme_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarBuzzTheme" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/buzztheme_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/buzztheme_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/buzztheme_scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBarBuzzTheme" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/buzztheme_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/buzztheme_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarBigBuzzTheme" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/buzztheme_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/buzztheme_ratingbar_holo_light</item>
+  </style>
+
+  <style name="RatingBarSmallBuzzTheme" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/buzztheme_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/buzztheme_ratingbar_small_holo_light</item>
+  </style>
+
+  <style name="ToggleBuzzTheme" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/buzztheme_btn_toggle_holo_light</item>
+  </style>
+
+</resources>

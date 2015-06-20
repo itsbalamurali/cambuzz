@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cambuzz.progressworks.co.MainActivity">
+    <item android:id="@+id/action_add_wall_post" android:title="@string/action_notification"
+        android:orderInCategory="100"
+        android:icon="@drawable/plus"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_notifications" android:title="@string/action_notification"
+        android:orderInCategory="200"
+        android:icon="@drawable/bell26"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_about" android:title="@string/action_about"
+        android:orderInCategory="300"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="400"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_logout" android:title="@string/action_logout"
+        android:orderInCategory="500"
+        app:showAsAction="never"/>
+</menu>

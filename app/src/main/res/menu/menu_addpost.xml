@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cambuzz.progressworks.co.MainActivity">
+    <item android:id="@+id/wall_post_send" android:title="@string/action_post_send"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+</menu>

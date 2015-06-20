@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="BuzzTheme" parent="@style/_BuzzTheme"/>
+
+  <style name="_BuzzTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <item name="android:editTextBackground">@drawable/buzztheme_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#9957e2ca</item>
+    <item name="android:textSelectHandleLeft">@drawable/buzztheme_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/buzztheme_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/buzztheme_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewBuzzTheme</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/buzztheme_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/buzztheme_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonBuzzTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonBuzzTheme</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerBuzzTheme</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarBuzzTheme</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarBuzzTheme</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarBuzzTheme</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigBuzzTheme</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallBuzzTheme</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleBuzzTheme</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/buzztheme_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/buzztheme_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/buzztheme_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>
