@@ -13,13 +13,13 @@
         android:ems="10"
         android:id="@+id/postdata"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true" />
-    <EditText
+        android:layout_alignParentRight="true"/>
+    <!--<EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/handlename"
         android:layout_below="@+id/postdata"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true" />-->
 </RelativeLayout>

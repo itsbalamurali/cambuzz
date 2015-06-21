@@ -1,5 +1,8 @@
 package cambuzz.progressworks.co.user;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,6 +16,8 @@ public class AddwallpostActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_addwallpost);
+        final ActionBar actionBar = getSupportActionBar();
+        actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#57e2ca")));
     }
 
     @Override
@@ -24,12 +29,10 @@ public class AddwallpostActivity extends ActionBarActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+
         int id = item.getItemId();
 
-        if (id == R.id.action_add_wall_post){
+        if (id == R.id.wall_post_send){
             Toast emptyPost = Toast.makeText(AddwallpostActivity.this,"Your post is empty", Toast.LENGTH_SHORT);
             emptyPost.show();
         }

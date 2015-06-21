@@ -1,5 +1,8 @@
 package cambuzz.progressworks.co;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -49,6 +52,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         // Set up the action bar.
         final ActionBar actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+        actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#57e2ca")));
 
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
@@ -79,6 +83,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
                             //.setText(mSectionsPagerAdapter.getPageTitle(i))
                             .setIcon(mSectionsPagerAdapter.getIcon(i))
                             .setTabListener(this));
+
         }
     }
 

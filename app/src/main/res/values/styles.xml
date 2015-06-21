@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-
     <style name="ActionBarBuzzTheme" parent="@android:style/Widget.Holo.Light.ActionBar">
         <item name="android:background">#57e2ca</item>
     </style>
@@ -108,5 +107,4 @@
     <style name="SpinnerItemBuzzTheme" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
         <item name="android:textColor">#ffffff</item>
     </style>
-
 </resources>

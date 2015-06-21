@@ -1,10 +1,8 @@
 package cambuzz.progressworks.co.user;
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,7 +13,7 @@ import com.parse.ParseException;
 import com.parse.ParseUser;
 import cambuzz.progressworks.co.MainActivity;
 import cambuzz.progressworks.co.R;
-public class LoginActivity extends ActionBarActivity {
+public class LoginActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
