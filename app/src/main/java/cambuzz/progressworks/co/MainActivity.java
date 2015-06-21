@@ -26,6 +26,9 @@ import cambuzz.progressworks.co.user.LoginActivity;
 import cambuzz.progressworks.co.user.Notifications;
 import cambuzz.progressworks.co.user.SettingsActivity;
 import cambuzz.progressworks.co.viewpager.FeedFragment;
+import cambuzz.progressworks.co.viewpager.ResultsFragment;
+import cambuzz.progressworks.co.viewpager.ScheduleFragment;
+import cambuzz.progressworks.co.viewpager.WallFragment;
 
 
 public class MainActivity extends ActionBarActivity implements ActionBar.TabListener {
@@ -166,11 +169,11 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
                 case 0:
                     return FeedFragment.newInstance(0);
                 case 1:
-                    return FeedFragment.newInstance(1);
+                    return WallFragment.newInstance(1);
                 case 2:
-                    return FeedFragment.newInstance(2);
+                    return ScheduleFragment.newInstance(2);
                 case 3:
-                    return FeedFragment.newInstance(3);
+                    return ResultsFragment.newInstance(3);
 
                 default:
                     return null;
